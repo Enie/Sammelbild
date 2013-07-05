@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Sammelbild
+
+  Created by Enie Weiß on 26.11.12.
+  Copyright (c) 2012 Enie Weiß. All rights reserved.
+*/
+
+"referenceTooltip" = "very important thing";
+"sourceTooltip" = "also imaportant";
+"destinationTooltip" = "not that important";

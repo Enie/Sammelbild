@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Sammelbild
+
+  Created by Enie Weiß on 26.11.12.
+  Copyright (c) 2012 Enie Weiß. All rights reserved.
+*/
+
+"referenceTooltip" = "the reference image will be mosaicized.";
+"sourceTooltip" = "this folder will be used to find tiles that fit into the mosaic";
+"tempTooltip" = "if you like to, you can specify a folder for temporary tile files. this will speed up the creation of an mosaic, if you create another mosaic with the exact same size as one before.";
