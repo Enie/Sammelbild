@@ -106,7 +106,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #ee5500;
   text-shadow: none;
 
   transition: color 0.5s ease;
@@ -122,13 +122,13 @@ a {
 }
 
 #main_content a:hover {
-  color: #0069ba;
-  text-shadow: #0090ff 0px 0px 2px;
+  color: #cc3300;
+  text-shadow: #ee5500 0px 0px 2px;
 }
 
 footer a:hover {
-  color: #43adff;
-  text-shadow: #0090ff 0px 0px 2px;
+  color: #ff7722;
+  text-shadow: #ee5500 0px 0px 2px;
 }
 
 em {
@@ -281,7 +281,7 @@ Full-Width Styles
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
-  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  background: url('../images/blacktocat.png') #ee5500 no-repeat 95% 50%;
   font-weight: 700;
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
@@ -319,7 +319,7 @@ Full-Width Styles
 
 #downloads {
   position: absolute;
-  width: 210px;
+  width: 320px;
   z-index: 10;
   bottom: -40px;
   right: 0;
@@ -335,9 +335,22 @@ Full-Width Styles
   text-indent: -5000px;
   overflow: hidden;
   background: url(../images/sprite_download.png) no-repeat bottom left;
+  margin-left:10px;
 }
 
 .tar_download_link {
+  display: block;
+  float: right;
+  width: 90px;
+  height:70px;
+  text-indent: -5000px;
+  overflow: hidden;
+  background: url(../images/sprite_download.png) no-repeat;
+  background-position:-90px -70px;
+  margin-left: 10px;
+}
+
+.dmg_download_link {
   display: block;
   float: right;
   width: 90px;
@@ -353,6 +366,11 @@ Full-Width Styles
 }
 
 .tar_download_link:hover {
+  background: url(../images/sprite_download.png) no-repeat;
+  background-position:-90px 0px;
+}
+
+.dmg_download_link:hover {
   background: url(../images/sprite_download.png) no-repeat top right;
 }
 
